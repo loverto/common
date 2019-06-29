@@ -4,6 +4,13 @@ import java.util.Objects;
 
 public class ComputerType {
 
+    public ComputerType(final String value) {
+        this.value = value;
+    }
+
+    public ComputerType() {
+    }
+
     Long id;
     String name;
     String value;
